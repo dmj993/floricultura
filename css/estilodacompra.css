@@ -1,0 +1,154 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	
+	
+
+
+}
+
+header{
+	background-color:;
+	grid-area: header;
+}
+
+aside{
+
+	background-color: #EDB7D4;
+	grid-area: aside;
+	border-width: 2px;
+	border-style: double;
+	border-color: #8B674A;
+
+}
+
+main{
+	grid-area: main;
+
+}
+
+footer{
+	
+	grid-area: footer;
+
+}
+
+
+.bt{
+    min-height: 45px; 
+    width: 200px; 
+    border-radius: 30px; 
+    border: 2px solid white; 
+    background-color: rgb(49, 196, 125); 
+    font-family: "Do Hyeon", sans-serif; 
+    color: rgb(0, 32, 0); 
+    font-size: 20px; 
+    font-weight: 100; 
+    letter-spacing: 2px;
+
+}
+
+.botão{
+	position: relative;
+	top: 1100px;
+}
+
+
+#btn-hover{
+	min-height: 45px;
+	width: 200px;
+	border-radius: 30px;
+	border: 0px none white;
+	background-color: rgb(255, 56, 56);
+	font-family: "Gamja Flower", cursive;
+	color: rgb(255, 255, 255);
+	font-size: 24px;
+}
+
+#buques{
+	height: 1975px; 
+    width: 350px; 
+    position: relative;
+    top: -15px;
+    left: -170px;
+    background-color: #F2CCB6;
+}
+
+#decoracao{
+	height: 1820px; 
+    width: 350px; 
+    position: absolute;
+    top: 160px;
+    left: 383px;
+    background-color: #C4E5F2;
+}
+
+#kit{
+	height: 1450px; 
+    width: 350px; 
+    position: absolute;
+    top: 160px;
+    left: 745px;
+    background-color: #BF6F84;
+}
+
+#cesta{
+	height: 1450px; 
+    width: 350px; 
+    position: absolute;
+    top: 160px;
+    left: 1113px;
+    background-color: #D99CA7;
+}
+
+.TotalDaComprar{
+	position: absolute;
+	top: 680px;
+	left: 620px;
+}
+
+
+#PosiCarrinho{
+	position: absolute;
+	top: 1200px;
+	left: 550px;
+}
+
+
+
+.logo{
+	background-color: green;
+	width: 110%;
+	height: 170%;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	grid-template-rows: 20vh 0vh 10vh;
+	grid-template-areas: "aside  header"
+						 "main   main"
+						 "footer footer"
+}
+
+
+h5{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	
+}
+
+h2{
+	text-align: center;
+
+}
+
+p{
+	text-align: justify;
+}
+
+
+

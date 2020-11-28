@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cadastrar</title>
+	<link rel="stylesheet" href="css/estilocadastrar.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+</head>
+<body>
+
+	<form class="form" action="index.html">
+    <div class="card">
+      <div class="card-top">
+        <img class="imglogin" src="img/usuario.png">
+        <br>
+        <h2>Cadastrar</h2>
+        <p>Faça cadastro e inicie suas compras</p>
+      </div>
+      <div class="card-group">
+        <label>Nome*</label>
+        <input type="name" name="nome" placeholder="Nome" required="">
+      </div>
+      <div class="card-group">
+        <label>Sobrenome*</label>
+        <input type="name" name="sobrenome" placeholder="Sobrenome" required="">
+      </div>
+      <div class="card-group">
+        <label>CPF*</label>
+        <input type=text name="cpf" maxlength="11" placeholder="Digite apenas números" required="">
+      </div>
+      <div class="card-group">
+        <label>Email*</label>
+        <input type="email" name="email" placeholder="Digite seu email" required="">
+      </div>
+        <div class="card-group">
+        <label>Crie uma senha*</label>
+        <input type="password" name="email" placeholder="Crie uma senha" required="">
+      </div>
+      <div class="card-group">
+        <label><input type="checkbox" name=""> Lembre-me</label>
+      </div>
+      <p>Endereço</p>
+      <div class="card-group">
+        <label>Cidade*</label>
+        <input type="text" name="cidade"  required="">
+      </div>
+      <div class="card-group">
+        <label>Rua*</label>
+        <input type="text" name="rua"  required="">
+      </div>
+      <div class="card-group">
+        <label>Número*</label>
+        <input type=text  size=5 name="número"  required="">
+      </div>
+      <div class="card-group">
+        <label>Complemento</label>
+        <input type="text" name="complemento" placeholder="Opcional">
+      </div>
+      <div class="card-group">
+        <label>CEP*</label>
+        <input type="text" name="cep"  required="">
+      </div>
+      <div class="card-group">
+        <label>Telefone 1*</label>
+        <input type="tel" name="usertel"  required="">
+      </div>
+      <div class="card-group">
+        <label>Telefone 2</label>
+        <input type="tel" name="usertel" >
+      </div>
+
+      <div class="card-group">
+       <button type="submit" onclick="alert('Cadastro realizado com sucesso.')">Cadastar</button>
+        
+      </div>
+      
+    </div>
+  </form>
+
+</body>
+</html>

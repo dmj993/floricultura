@@ -1,0 +1,113 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	
+	
+
+
+}
+
+header{
+	background-color: #F8F8F8;
+	grid-area: header;
+	border-width: 2px;
+	border-style: double;
+	border-color: #8B674A;
+}
+
+main{
+	grid-area: main;
+
+}
+
+
+
+aside{
+	background-color: #EDB7D4;
+	grid-area: aside;
+	border-width: 2px;
+	border-style: double;
+	border-color: #8B674A;
+}
+
+footer{
+	
+	grid-area: footer;
+
+}
+
+.perguntas{
+
+	font-size: 25px;
+	font-weight: 800;
+
+}
+
+.respostas {
+
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+.btn-hover{
+	min-height: 45px;
+	width: 200px;
+	border-radius: 30px;
+	border: 0px none white;
+	background-color: rgb(236, 240, 241);
+	font-family: "Gamja Flower", cursive;
+	color: rgb(60, 60, 60);
+	font-size: 24px;}.btn-hover:hover{}
+
+#p1 {
+
+	text-align: center;
+	font-size: 40px;
+	color: #36d413;
+	font-family: URW Chancery L, cursive;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	grid-template-rows: 20vh 195vh 30vh;
+	grid-template-areas: "aside header"
+						 "main main"
+						 "footer footer"
+}
+
+h5{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	color: #DF6182
+	
+}
+
+h4{
+	text-align: center;
+}
+
+p{	background-color: #F8F8F8;
+	border-width: 2px;
+	border-style: double;
+	border-color: #8B674A;
+	padding: 0.5cm 1cm 1cm 0.5cm;
+}
+
+.contatinho{
+	border-color: #ffffff;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+#rodapé{
+	position: relative;
+	left: 90px;
+	height: 150px;
+	width: 1000px;
+
+}

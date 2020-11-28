@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Comprar</title>
+  <link rel="stylesheet" href="css/estilodacompra.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="sortcut icon" href="img/logonave.png" type="image/gif">
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">Inicio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      
+      <li class="nav-item">
+        <a class="nav-link" href="buques.html">Buquês</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="floresdecoracao.html">Flores de Decoração</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="kitsdeflores.html">Kits de flores</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cestas.html">Cestas de Café da Manhã</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="FAQ.html">FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="meuperfil.html">Meu Perfil</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Procure
+  seu produto" aria-label="Procure
+  seu produto" aria-describedby="basic-addon2" style="margin-left: 2cm;">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button" style="margin-right: 2cm;"><img src="img/lupa.png" alt="lupa1 "width="15px" height="15px"></button>
+  </div>
+</div>
+     
+    </header>
+
+
+ <aside><img src="img/logo.png" alt="logo1 "width="100%" height="90%"></aside>
+ <main class="buque">
+  <br>
+  <div id="buques">
+  <h2>Buquês</h2>
+  <div align="center">
+  Buquê 24 rosas brancas <strong>R$ 225,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd1">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('buquê 24 rosas brancas', document.getElementById('qtd1').value, '225.90', 1)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Buquê 24 rosas amarelas <strong>R$ 210,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd2">
+  <button class="bt" type="button" id="adicionar2" id="produto1" onclick="AddCarrinho('buquê 24 rosas amarelas', document.getElementById('qtd2').value, '210.90', 2)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Buquê 24 rosas vermelhas <strong>R$ 217,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd3">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('buquê 24 rosas vermelhas', document.getElementById('qtd3').value, '217.90', 3)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Buquê 42 rosas pink<strong>R$ 402,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd4">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('buquê 42 rosas pink', document.getElementById('qtd4').value, '402.90', 4)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Buquê 36 rosas champanhe <strong>R$ 317,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd5">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('buquê 36 rosas champanhe', document.getElementById('qtd5').value, '317.90', 5)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Buquê 42 rosas coloridas <strong>R$ 410,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd6">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('buquê 42 rosas coloridas', document.getElementById('qtd6').value, '410.90', 6)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Buquê 12 rosas vermelhas <strong>R$ 113,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd7">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('buquê 12 rosas vermelhas', document.getElementById('qtd7').value, '113.90', 7)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Buquê 12 rosas pink <strong>R$ 124,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd8">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('buquê 12 rosas pink', document.getElementById('qtd8').value, '124.90', 8)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Buquê 12 rosas amarelas <strong>R$ 130,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd9">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('buquê 12 rosas amarelas', document.getElementById('qtd9').value, '130.90', 9)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Buquê 1 girassol <strong>R$ 40,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd10">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('buquê 1 girassol', document.getElementById('qtd10').value, '40.90', 10)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Buquê 6 girassol <strong>R$ 80,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd11">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('buquê 6 girassóis', document.getElementById('qtd11').value, '80.90', 11)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Buquê 12 girassóis <strong>R$ 160,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd12">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('buquê 12 girassóis', document.getElementById('qtd12').value, '160.90', 12)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Margaridas brancas <strong>R$ 104,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd13">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Buquê Margaridas brancas 50 hastes pequenas', document.getElementById('qtd13').value, '104.90 ', 13)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Margaridas coloridas <strong>R$ 115,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd14">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Buquê Margaridas coloridas 12 hastes', document.getElementById('qtd14').value, '115.90 ', 14)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Astromélia branca <strong>R$ 43,00</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd15">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Buquê Astromélia branca 10 flores', document.getElementById('qtd15').value, '43.00 ', 15)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Mix multicolor <strong>R$ 233,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd16">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Buquê Mix multicolor de 30 hastes', document.getElementById('qtd16').value, '233.90 ', 16)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Mix azul <strong>R$ 168,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd17">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Buquê Mix azul de 15 hastes', document.getElementById('qtd17').value, '168.90 ', 17)"> Comprar </button></div>
+<br>
+  <div align="center">
+   Pinóquios Amarelos <strong>R$ 72,00</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd18">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Buquê Pinóquios Amarelos de 24 hastes', document.getElementById('qtd18').value, '72.00', 18)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Begônias Rose <strong>R$ 136,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd19">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Buquê Begônias Rose de 42 hastes', document.getElementById('qtd19').value, '136.90 ', 19)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Cravos brancos <strong>R$ 120,90</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd20">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Buquê Cravos brancos de 24 hastes', document.getElementById('qtd20').value, '120.90 ', 20)"> Comprar </button></div>
+<br>
+  <div align="center">
+  Ametista <strong>R$ 167,00</strong><br>
+  qtd: <input type="number" value="1" min="1" max="10" id="qtd21">
+  <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Buquê Ametista 42 hastes', document.getElementById('qtd21').value, '167.00 ', 21)"> Comprar </button></div>
+
+
+</div>
+
+      <div id="kit">
+
+      <h2 align="center">Kit De Flores</h2>
+      <div align="center">
+      Pequeno Presente <strong>R$ 35,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd22">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Pequeno Presente rosa + chocolate', document.getElementById('qtd22').value, '35.90 ', 22)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Rosa chandon <strong>R$ 139,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd23">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Rosa chandon espumante + flores vermelhas', document.getElementById('qtd23').value, '139.90 ', 23)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      lúxuria do Amor <strong>R$ 119,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd24">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('lúxuria do amor vinho rose + rosa + bombom', document.getElementById('qtd24').value, '119.90 ', 24)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Te amo <strong>R$ 112,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd25">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Te amo flores + pelucia + canecas', document.getElementById('qtd25').value, '112.90 ', 25)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Boas festas <strong>R$ 129,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd26">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Boas festas buquê de rosas + canecas', document.getElementById('qtd26').value, '129.90 ', 26)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Parabéns bebê <strong>R$ 139,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd27">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Parabéns bebê flores + pelucia + cartão', document.getElementById('qtd27').value, '139.90 ', 27)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Feliz Aniversário <strong>R$ 98,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd28">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Feliz Aniversário vaso de flores variadas + balão de parabéns', document.getElementById('qtd28').value, '98.90 ', 28)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Puro amor <strong>R$ 265,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd29">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Puro amor magaridas + vinho tinto + pelúcia + chocolate', document.getElementById('qtd29').value, '265.90 ', 29)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Presente delicado <strong>R$ 129,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd30">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Presente delicado + 6 violetas + pelucia + chocolates', document.getElementById('qtd30').value, '129.90 ', 30)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Romantico <strong>R$ 63,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd31">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Romantico duas rosas + chocolates', document.getElementById('qtd31').value, '63.90 ', 31)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      kit luxo <strong>R$ 239,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd32">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('kit luxo buquê de rosa + vinho tinto + chocolates', document.getElementById('qtd32').value, '239.90 ', 32)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Orquidía do amor <strong>R$ 279,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd33">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Orquidia + pelucia + chocolate', document.getElementById('qtd33').value, '279.90 ', 33)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Presente feliz <strong>R$ 60,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd34">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Buquê multicolorido + chocolate', document.getElementById('qtd34').value, '60.90 ', 34)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Ensolarado <strong>R$ 314,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd35">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Ensolarado buquê de girassol + espumante + chocolate + pelucia', document.getElementById('qtd35').value, '314.90 ', 35)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Glamour <strong>R$ 201,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd36">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Glamour Rosas + licor + chocolate', document.getElementById('qtd36').value, '201.90 ', 36)"> Comprar </button></div>
+
+      </div>
+
+      <div id="decoracao">
+
+    <h2 align="center">Decoração</h2>
+    <div align="center">
+    Orquídeas Brancas <strong>R$ 569,90</strong><br>
+    qtd: <input type="number" value="1" min="1" max="10" id="qtd37">
+    <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('orquídea branca', document.getElementById('qtd37').value, '569.90', 37)"> Comprar </button></div>
+<br>
+    <div align="center">
+     Narciso Amarelo <strong>R$ 104,90</strong><br>
+     qtd: <input type="number" value="1" min="1" max="10" id="qtd38">
+     <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('narciso amarelo', document.getElementById('qtd38').value, '104.90', 38)"> Comprar </button></div>
+<br>
+     <div align="center">
+     Begônia Vermelha <strong>R$ 118,90</strong><br>
+     qtd: <input type="number" value="1" min="1" max="10" id="qtd39">
+     <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('begônia vermelha', document.getElementById('qtd39').value, '118.90', 39)"> Comprar </button></div>
+<br>
+     <div align="center">
+     Violeta Roxa <strong>R$ 44,90</strong><br>
+     qtd: <input type="number" value="1" min="1" max="10" id="qtd40">
+     <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('violeta roxa', document.getElementById('qtd40').value, '44.90', 40)"> Comprar </button></div>
+<br>
+     <div align="center">
+     Bonsai <strong>R$ 104,90</strong><br>
+     qtd: <input type="number" value="1" min="1" max="10" id="qtd41">
+     <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('bonsai', document.getElementById('qtd41').value, '104.90', 41)"> Comprar </button></div>
+<br>
+     <div align="center">
+     Pequenos Cactos <strong>R$ 104,90</strong><br>
+     qtd: <input type="number" value="1" min="1" max="10" id="qtd42">
+     <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('pequenos cactos', document.getElementById('qtd42').value, '104.90', 42)"> Comprar </button></div>
+<br>
+     <div align="center">
+     Copo de Leite <strong>R$ 102,90</strong><br>
+     qtd: <input type="number" value="1" min="1" max="10" id="qtd43">
+     <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('copo de leite', document.getElementById('qtd43').value, '102.90', 43)"> Comprar </button></div>
+<br>
+     <div align="center">
+     Antúrio Branco <strong>R$ 69,90</strong><br>
+     qtd: <input type="number" value="1" min="1" max="10" id="qtd44">
+     <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('antúrio branco', document.getElementById('qtd44').value, '69.90', 44)"> Comprar </button></div>
+<br>
+     <div align="center">
+     Hortênsia Artificial <strong>R$ 131,90</strong><br>
+     qtd: <input type="number" value="1" min="1" max="10" id="qtd45">
+     <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('hortênsia artificial', document.getElementById('qtd45').value, '131.90', 45)"> Comprar </button></div>
+<br>
+     <div align="center">
+     Tulipas Brancas <strong>R$ 95,90</strong><br>
+     qtd: <input type="number" value="1" min="1" max="10" id="qtd46">
+     <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('tulipas brancas', document.getElementById('qtd46').value, '95.90', 46)"> Comprar </button></div>
+<br>
+     <div align="center">
+     Boca de Leão Branca <strong>R$ 121,90</strong><br>
+     qtd: <input type="number" value="1" min="1" max="10" id="qtd47">
+     <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('boca de leão branca', document.getElementById('qtd47').value, '121.90', 47)"> Comprar </button></div>
+<br>
+     <div align="center">
+     Mini Kalanchoe <strong>R$ 14,90</strong><br>
+     qtd: <input type="number" value="1" min="1" max="10" id="qtd48">
+     <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('mini kalanchoe', document.getElementById('qtd48').value, '14.90', 48)"> Comprar </button></div>
+<br>
+     <div align="center">
+     Lavanda <strong>R$ 17,00</strong><br>
+     qtd: <input type="number" value="1" min="1" max="10" id="qtd49">
+     <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('lavanda', document.getElementById('qtd49').value, '17.00', 49)"> Comprar </button></div>
+<br>
+     <div align="center">
+     Crisântemo Roxo <strong>R$ 19,50</strong><br>
+     qtd: <input type="number" value="1" min="1" max="10" id="qtd50">
+     <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('lavanda', document.getElementById('qtd50').value, '19.50', 50)"> Comprar </button></div>
+<br>
+      <div align="center">
+      Amarilis Vermelha<strong>R$ 18,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd51">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('amarilis vermelha', document.getElementById('qtd51').value, '18.90', 51)"> Comprar </button></div>
+<br>
+      <div align="center">
+      Amarilis Vermelha<strong>R$ 18,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd52">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('amarilis vermelha', document.getElementById('qtd52').value, '18.90', 52)"> Comprar </button></div>
+<br>
+      <div align="center">
+      Gardênia Branca<strong>R$ 62,20</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd53">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('gardênia branca', document.getElementById('qtd53').value, '62.20', 53)"> Comprar </button></div>
+<br>
+      <div align="center">
+      Jacinto Roxo<strong>R$ 39,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd54">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('jacinto roxo', document.getElementById('qtd54').value, '39.90', 54)"> Comprar </button></div>
+<br>
+      <div align="center">
+      Papoula Púrpura<strong>R$ 21,45</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd55">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('papoula púrpura', document.getElementById('qtd55').value, '21.45', 55)"> Comprar </button></div>
+
+      </div>
+
+      <div id="cesta">
+
+        <h2 align="center">Cestas Especiais</h2>
+      <div align="center">
+      Singelo Amor <strong>R$ 85,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd56">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Singelo Amor 12 itens + 2 flores naturais', document.getElementById('qtd56').value, '85.90 ', 56)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Café feliz <strong>R$ 134,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd57">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Café feliz 20 itens + 4 flores artificiais', document.getElementById('qtd57').value, '201.90 ', 57)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Pequena lembrança <strong>R$ 62,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd58">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Pequena lembrança 10 itens + uma flor natural', document.getElementById('qtd58').value, '62.90 ', 58)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Carícia de Luxo <strong>R$ 105,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd59">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Carícia de Luxo 12 itens + uma flor natural', document.getElementById('qtd59').value, '105.90 ', 59)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Orfeu e Eurídice <strong>R$ 325,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd60">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Orfeu e Eurídice 20 itens  + flores naturais + 2 vinhos', document.getElementById('qtd60').value, '325.90 ', 60)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Café sem Glúten <strong>R$ 235,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd61">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Café sem Glúten 25 itens + flores artificiais', document.getElementById('qtd61').value, '235.90 ', 61)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Fruta e Flores <strong>R$ 156,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd62">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Fruta e Flores 10 itens + flores naturais', document.getElementById('qtd62').value, '156.90 ', 62)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Café de Parabéns <strong>R$ 198,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd63">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Café de Parabéns 20 itens + flores naturais', document.getElementById('qtd63').value, '198.90 ', 63)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      João e maria <strong>R$ 189,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd64">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('João e maria 20 itens + uma flor natural', document.getElementById('qtd64').value, '189.90 ', 64)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Rosa Romance <strong>R$ 185,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd65">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Rosa Romance 20 itens + flores naturais', document.getElementById('qtd65').value, '185.90 ', 65)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Doce amor <strong>R$ 379,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd66">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Doce amor 40 itens + flores naturais', document.getElementById('qtd66').value, '379.90 ', 66)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Café com amor <strong>R$ 185,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd67">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Café com amor 20 itens + flores naturais', document.getElementById('qtd67').value, '185.90 ', 67)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Café de luxo <strong>R$ 299,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd68">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Café de luxo 20 itens + 2 vinhos', document.getElementById('qtd68').value, '299.90 ', 68)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Manhã delicada <strong>R$ 96,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd69">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('manhã delicada 15 itens + flores artificial', document.getElementById('qtd69').value, '96.90 ', 69)"> Comprar </button></div>
+      <br>
+      <div align="center">
+      Parece um sonho <strong>R$ 290,90</strong><br>
+      qtd: <input type="number" value="1" min="1" max="10" id="qtd70">
+      <button class="bt" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Parece um sonho 30 itens + urso de pelucia', document.getElementById('qtd70').value, '290.90 ', 70)"> Comprar </button></div>
+
+
+      </div>
+
+
+</main>
+
+<script src="./js/index.js"></script>
+
+</body>
+</html>

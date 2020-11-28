@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  	<meta charset="utf-8">
+	<title>Floricultura</title>
+	<link rel="stylesheet" href="css/estiloindex.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="sortcut icon" href="img/logonave.png" type="image/gif">
+  <script>
+  localStorage.setItem("produto","valor");
+</script>
+<script>
+ function AddCarrinho(produto, qtd, valor, posicao)
+ { 
+ localStorage.setItem("produto" + posicao, produto);
+ localStorage.setItem("qtd" + posicao, qtd);
+ valor = valor * qtd;
+ localStorage.setItem("valor" + posicao, valor);
+ alert("Produto adicionado ao carrinho!");
+ }
+</script>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">Inicio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      
+      <li class="nav-item">
+        <a class="nav-link" href="buques.html">Buquês</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="floresdecoracao.html">Flores de Decoração</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="kitsdeflores.html">Kits de flores</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cestas.html">Cestas de Café da Manhã</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="FAQ.html">FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="meuperfil.html">Meu Perfil</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+     <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Procure
+  seu produto" aria-label="Procure
+  seu produto" aria-describedby="basic-addon2" style="margin-left: 2cm;">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button" style="margin-right: 2cm;"><img src="img/lupa.png" alt="lupa1 "width="15px" height="15px"></button>
+  </div>
+</div>
+
+		</header>
+		<main>
+      <br>
+     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/home/bannerprincipal.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/home/carrossel2.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/home/carrossel3.png" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  <br><br>
+  <h1>Encontre em Nossa Loja:</h1>
+  <br>
+  <div class="card-group">
+  <div class="card">
+    <a href="kitsdeflores.html"><img src="img/home/kit.jpg"  class="card-img-top" alt="..."></a>
+    <div class="card-body">
+      <h5 class="card-title">Kits de Flores</h5>
+      <p class="card-text">Kits especiais para você presentiar quem ama</p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <a href="cestas.html"><img src="img/home/cesta.jpg" class="card-img-top" alt="..."></a>
+    <div class="card-body">
+      <h5 class="card-title">Cestas de Café da Manhã</h5>
+      <p class="card-text">Cestas preparadas com muito amor para nossos clientes!</p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <a href="buques.html"><img src="img/buquegirassol/medio.jpg" class="card-img-top" alt="..."></a>
+    <div class="card-body">
+      <h5 class="card-title">Buquês</h5>
+      <p class="card-text">Buquês lindos em promoção</p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+</div>
+<br><br>
+    <div class="dicas">
+    <h2>Como conservar flores naturais?</h2>
+    <br>
+    <img src="img/home/violeta.jpg" alt="banner2 "width="550px" height="350px">
+    <br><br>
+    <h3>A rega:</h3> 
+    <p>Leve em consideração na hora de como conservar flores naturais, a estação do ano na frequência da rega: no inverno, por exemplo, a água da terra evapora mais lentamente, e consequentemente a quantidade de regas deve ser menor. Além disso, não deixe a terra encharcada de água, isso aumenta as chances de apodrecimento das raízes e da proliferação de fungos e pragas – cheque a umidade da terra constantemente.</p>
+
+    <h3>Os cuidados com a luminosidade:</h3>
+    <p>A quantidade de sol e luminosidade que cada flor precisa é variável de acordo com cada espécie. Em locais fechados e com ar condicionado, é preciso selecionar opções que se adaptem facilmente a esse meio, como a dracena e o lírio da paz.<br>
+    Evite espaços poluídos e com fumaça. Nesses casos, o ideal é colocá-las em janelas – as flores precisam de ar puro. Os raios solares são essenciais para a produção de fotossíntese das plantas, dando todos os nutrientes que elas precisam para se desenvolverem com saúde e beleza. Mas, a luminosidade, mesmo que indireta, também pode ajudar nesse processo.</p>
+
+    <h3>Adubo</h3>
+    <p>Uma forma de fortalecer as flores é utilizando adubos na terra, em especial os orgânicos. Há opções voltadas especialmente para determinadas flores como orquídeas e rosa do deserto.
+    Adubos líquidos concentrados também são benéficos para plantas ornamentais, flores e frutos, basta escolher o ideal para a espécie que você tem.</p>
+    <h3>Fertilizantes e conservantes</h3>
+    <p>Você também deve ficar atento aos fungos e bactérias que podem se juntar nas folhagens e em suas flores.<br>
+    Uma boa dica de como conservar flores naturais por mais tempo é investir em compostos conservantes, eles são produtos que não agridem nem prejudicam a cor das pétalas. Além de ajudá-las a florescer com muita beleza e força. Assim, as flores levarão mais tempo para murchar ou perder a cor e o perfume.</p>
+    <br>
+    <h2>Concervantes e Adubos vendidos por nossa loja</h2>
+    <br>
+    <div class="card-deck">
+  <div class="card">
+    <img src="img/home/adubo.jpg " class="card-img-top" alt="width=35px" height="290px">
+    <div class="card-body">
+      <h5 class="card-title">Terra Vegetal</h5>
+      <p class="card-text">Terra Vegetal Terral 25kg<br>Por R$10,90 </p>
+      <a href="comprar.html"><button id= "comprar"type="button" class="btn btn-outline-success">Comprar</button>
+      </a>
+      <a href="comprar.html"><button class="BtnMais" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('terra vegetal terral', document.getElementById('qtd1').value, '10.90', 1)"> + </button></a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/home/conservante.jpg" class="card-img-top" alt="...">
+    <div class="card-body"><br>
+      <h5 class="card-title">Conservante Flower</h5>
+      <p class="card-text">Conservante de flores 1 litro<br>Por R$52,25</p>
+      <a href="comprar.html"><button id= "comprar"type="button" class="btn btn-outline-success">Comprar</button>
+      </a>
+      <a href="comprar.html"><button class="BtnMais" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('conservante flower', document.getElementById('qtd1').value, '52.25', 1)"> + </button></a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/home/fertilizante.jpg" class="card-img-top" alt="...">
+    <div class="card-body"><br>
+      <h5 class="card-title">Fertilizante Mineral</h5>
+      <p class="card-text">Fertilizante Mineral 50g<br>Por R$16,50</p>
+      <a href="comprar.html"><button id= "comprar"type="button" class="btn btn-outline-success">Comprar</button>
+      </a>
+      <a href="comprar.html"><button class="BtnMais" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('fertilizante mineral', document.getElementById('qtd1').value, '16.50', 1)"> + </button></a>
+    </div>
+  </div>
+</div>
+    </div>
+    
+
+    </main>
+		<aside><img src="img/logo.png" alt="logo1 "width="100%" height="90%"></aside>
+
+		<footer>
+      <div id="rodapé">
+        <img src="img/rodape.png" alt="width=25px" height="173px">
+      </div>
+
+			<hr>
+
+      <h4>Contato</h4>
+       <p class="contatinho"> WhatsApp: (11)96512-2218 | Instagram: @floriculturabloem<br>
+      Copyright © 2020 - Floricultura.com</p>
+		</footer>
+
+	</div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
